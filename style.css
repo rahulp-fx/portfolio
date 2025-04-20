@@ -13,8 +13,10 @@ html, body {
   }
 
 body {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 600;
+  /* font-family: 'Manrope', sans-serif; */
+
+  font-family: "Poppins";
+  font-weight: 400;
   /* background: linear-gradient(135deg, #1f1c2c, #928dab); */
   /* different tone for bright color */
   background: linear-gradient(135deg, #1f1c2c, #5d5a75);
