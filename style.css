@@ -14,8 +14,7 @@ html, body {
 
 body {
   /* font-family: 'Manrope', sans-serif; */
-
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   /* background: linear-gradient(135deg, #1f1c2c, #928dab); */
   /* different tone for bright color */
