@@ -148,7 +148,15 @@ main {
   align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin: 0 25px;
 }
+
+/* .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 .intro {
   width: 100%;
@@ -163,7 +171,7 @@ main {
 
 .profile {
   /* border: solid 1px red; */
-  width: 50%;
+  width: 80%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -171,14 +179,14 @@ main {
   object-fit: cover;
 }
 
-#profile {
+.profile img{
   /* border: solid 1px red; */
   border-radius: 50%;
   width: 250px;
   height: 250px;
 }
 
-.welcome {
+/* .welcome {
   width: 50%;
   height: 100%;
   padding: 25px;
@@ -188,19 +196,21 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
-}
+
+} */
 
 .skills {
   width: 100%;
   height: 400px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  text-align: left;
   /* border: solid 1px orangered; */
 }
 
-.text {
+/* .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -208,10 +218,9 @@ main {
   word-spacing: 3px;
   width: 50%;
   height: 100%;
-  /* padding-left: 40px; */
   padding-top: 15px;
   line-height: 25px;
-}
+} */
 
 .clip {
   /* border: solid 1px green; */
