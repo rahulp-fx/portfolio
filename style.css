@@ -105,10 +105,10 @@ main {
 
 .profile-image img {
   border-radius: 50%;
-  width: 50vw;
-  max-width: 250px;
-  height: 50vh;
-  max-height: 250px;
+  width: 30vw;
+  max-width: 200px;
+  height: 30vh;
+  max-height: 200px;
 }
 
 .projects-section {
@@ -130,7 +130,7 @@ main {
   height: 150px;
 }
 
-.weather-app, .chatty {
+.chatty {
   max-width: 400px;
   display: flex;
   flex-direction: column;
@@ -193,7 +193,7 @@ gap: 20px;
     height: 180px;
   }
 
-  .weather-app, .chatty {
+  .chatty {
     max-width: 100%;
   }
 
