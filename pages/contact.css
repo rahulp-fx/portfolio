@@ -102,16 +102,6 @@ main {
   padding: 30px;
 }
 
-.gif {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: solid 1px green; */
-    margin-top: 15px;
-}
-
 img {
     width: 250px;
     border-radius: 20px;

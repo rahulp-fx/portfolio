@@ -130,15 +130,6 @@ main {
   height: 150px;
 }
 
-.chatty {
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-}
-
 .links {
 gap: 20px;
 }
@@ -191,10 +182,6 @@ gap: 20px;
   .profile-image img {
     width: 180px;
     height: 180px;
-  }
-
-  .chatty {
-    max-width: 100%;
   }
 
   .projects img {
