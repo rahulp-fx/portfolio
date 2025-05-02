@@ -90,28 +90,35 @@ main {
 }
 
 .intro-section {
+  min-height: 400px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
   gap: 2rem;
   flex-wrap: wrap; /* allow warping */
   text-align: left;
   line-height: 1.6;
 }
 
-.intro-section ul {
-  list-style-position: inside;
+.skills ul {
+  list-style: disc inside;
+}
+
+.profile-image {
+  object-fit: cover;
 }
 
 .profile-image img {
-  border-radius: 50%;
-  width: 30vw;
+  border-radius: 20px;
+  width: 35vw;
+  height: 35vh;
   max-width: 200px;
-  height: 30vh;
   max-height: 200px;
 }
 
 .projects-section {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -125,18 +132,6 @@ main {
   gap: 2rem;
 }
 
-.projects img {
-  border-radius: 1rem;
-  height: 150px;
-}
-
-.links {
-gap: 20px;
-}
-
-.links a {
-  text-decoration: none;
-}
 
 /* Responsive Blocks */
 
